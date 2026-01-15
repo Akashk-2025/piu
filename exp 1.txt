@@ -1,0 +1,32 @@
+exp 1
+$ git config --system user.name "Akashk-2025"
+$ git config --system user.email "akashknayak22@gmail.com"
+$ git config --global user.name "Akashk-2025"
+$ git config --global user.email "akashknayak22@gmail.com"
+$ mkdir gitakash
+$ cd gitakash
+$ git init
+$ nano 1.txt
+$ git add 1.txt
+$ git commit -m "file 1"
+$ git log
+exp 2 
+$ git checkout main
+$ git checkout -b feature-branch
+$ nano 2.txt
+$ git add 2.txt
+$ git commit -m "file 2"
+$ git log
+$ git checkout main
+$ git merge feature-branch
+$ git log
+exp 3
+$ nano 3.txt
+$ git add 3.txt
+$ git stash save "file 3 stashed"
+$ git checkout feature-branch
+$ git stash apply
+$ git commit -m "file 3"
+$ git log
+
+
